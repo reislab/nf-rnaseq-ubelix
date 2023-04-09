@@ -3,11 +3,11 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1GB
 
+# In the terminal, clone git repo
+# git clone https://github.com/reislab/nf-rnaseq-ubelix.git
+
 # Set working directory to your project folder (e.g., <reis> below)
 $WORKDIR=/storage/workspaces/ips_reislab/reislab/reis
-
-# Clone git repo
-git clone https://github.com/reislab/nf-rnaseq-ubelix.git
 
 # Setup directory structure
 mkdir -p $WORKDIR/nf-rnaseq-ubelix/results
