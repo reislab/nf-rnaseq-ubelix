@@ -40,3 +40,9 @@ git clone "repo-link"
 
 - username: GitHub username
 - password: PAT created above
+
+## Run script
+
+``
+sbatch your-script.sh
+``
