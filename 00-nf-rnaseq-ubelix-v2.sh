@@ -4,7 +4,8 @@
 #SBATCH --mem-per-cpu=1GB
 
 module load Workspace
-module load Nextflow/22.10.1
+module load vital-it/7
+module load Utility/nextflow/19.04.1
 
 # Setup directory structure
 WORKDIR=$WORKSPACE/reis/nf-rnaseq-ubelix
