@@ -16,7 +16,7 @@ cd $WORKDIR
 # Run pipeline
 nextflow run nf-core/rnaseq -r 3.11.1 \
 -resume \
--profile unibe_ibu.config \
---outdir $OUTDIR
+--outdir $OUTDIR \
+-c '$WORKDIR/unibe_ibu.config'
 
 # unibe_ibu.config
