@@ -1,8 +1,8 @@
 # Nextflow RNA-seq pipeline for UBELIX
 Implementation of nf-core/rnaseq to UBELIX (UniBE's HPC cluster).
 
-nextflow 22.10.1
-nf-rnaseq 3.11.1
+- nextflow 22.10.1
+- nf-rnaseq 3.11.1
 
 ## Set-up GitHub repo 
 This repo and other nf-core pipeline implementations follow the name convention:
@@ -21,7 +21,7 @@ Create a PAT without expiration date, but with limited read-only access by enabl
 - read:public_key
 - read:ssh_signing_key
 
-**SAVE YOUR PAT IN A SECURE PLACE**
+**SAVE YOUR PAT IN A SECURE PLACE.**
 
 ## Clone repo in UBELIX
 Go to your UBELIX workspace
