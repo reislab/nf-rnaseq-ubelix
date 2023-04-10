@@ -3,10 +3,6 @@
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1GB
 
-# In the terminal (UBELIX), clone git repo
-# git clone https://github.com/reislab/nf-rnaseq-ubelix.git
-
-# Load modules
 module load Workspace
 module load Nextflow/22.10.1
 

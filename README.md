@@ -42,6 +42,14 @@ git clone "repo-link"
 - password: PAT created above
 
 ## Run script
+In the terminal (UBELIX), clone git repo
+
+
+``
+git clone https://github.com/reislab/nf-rnaseq-ubelix.git
+``
+
+Go to script and run:
 
 ``
 sbatch your-script.sh
