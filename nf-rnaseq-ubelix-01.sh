@@ -7,7 +7,7 @@
 # git clone https://github.com/reislab/nf-rnaseq-ubelix.git
 
 # Load modules
-HPC_WORKSPACE=ips_reislab module load Workspace
+module load Workspace
 module load Nextflow/22.10.1
 
 # Set working directory to your project folder (e.g., <reis> below)
