@@ -14,8 +14,5 @@ mkdir -p $OUTDIR
 cd $WORKDIR
 
 # Run pipeline
-nextflow run nf-core/rnaseq -r 3.11.1 \
--resume \
---outdir $OUTDIR \
--C 'unibe_ibu.config' \
--log $OUTDIR
+
+nextflow run nf-core/rnaseq -r 3.11.1 -resume --outdir $OUTDIR -c 'unibe_ibu.config'
