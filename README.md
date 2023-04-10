@@ -20,14 +20,21 @@ Create a PAT without expiration date, but with limited read-only access by enabl
 - read:packages
 - read:public_key
 - read:ssh_signing_key
+
 **SAVE YOUR PAT IN A SECURE PLACE**
 
 ## Clone repo in UBELIX
 Go to your UBELIX workspace
+
 ``
 cd /storage/workspaces/ips_reislab/reislab/"your-surname"
 ``
+
 Then, clone repo
-    git clone "repo-link"
+
+``
+git clone "repo-link"
+``
+
 - username: GitHub username
 - password: PAT created above
