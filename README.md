@@ -13,12 +13,13 @@ This repo and other nf-core pipeline implementations follow the name convention:
 ### Create a Personal Access Token (PAT) in GitHub
 In GitHub, go to:
 > Settings > Developer settings > Personal access tokens
+
 Create a PAT without expiration date, but with limited read-only access by enabling:
-> repo:status
-> public_repo
-> read:packages
-> read:public_key
-> read:ssh_signing_key
+- repo:status
+- public_repo
+- read:packages
+- read:public_key
+- read:ssh_signing_key
 **SAVE YOUR PAT IN A SECURE PLACE**
 
 ## Clone repo in UBELIX
@@ -28,5 +29,5 @@ cd /storage/workspaces/ips_reislab/reislab/"your-surname"
 ``
 Then, clone repo
     git clone "repo-link"
-> username: GitHub username
-> password: PAT created above
+- username: GitHub username
+- password: PAT created above
