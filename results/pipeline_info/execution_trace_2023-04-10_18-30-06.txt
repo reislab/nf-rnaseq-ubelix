@@ -1,0 +1,3 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+2	fe/8b61d8	72411	NFCORE_RNASEQ:RNASEQ:PREPARE_GENOME:GUNZIP_ADDITIONAL_FASTA (gfp.fa.gz)	FAILED	1	2023-04-10 18:30:43.734	504ms	463ms	-	-	-	-	-
+4	1f/5e4825	72638	NFCORE_RNASEQ:RNASEQ:PREPARE_GENOME:UNTAR_SALMON_INDEX (salmon.tar.gz)	COMPLETED	0	2023-04-10 18:30:44.280	865ms	187ms	23.1%	2.6 MB	7.8 MB	3.3 MB	2.5 MB

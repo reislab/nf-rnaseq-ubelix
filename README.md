@@ -35,7 +35,7 @@ cd /storage/workspaces/ips_reislab/reislab/"your-surname"
 Then, clone repo:
 
 ``
-git clone "repo-link"
+git clone https://github.com/reislab/nf-rnaseq-ubelix.git
 ``
 
 - username: GitHub username
@@ -54,3 +54,17 @@ In the local terminal, run (replace "user" and "your-surname"):
 ``
 scp -r "user"@submit03.unibe.ch:/storage/workspaces/ips_reislab/reislab/"your-surname"/nf-rnaseq-ubelix/results /path/to/target_dir/
 ``
+
+## Troubleshooting Nextflow
+Copy nextflow.log file (not in the results directory above):
+
+``
+scp -r "user"@submit03.unibe.ch:/storage/workspaces/ips_reislab/reislab/"your-surname"/nf-rnaseq-ubelix/.nextflow.log /path/to/target_dir/
+``
+
+
+[How to run a nf pipeline] (https://nf-co.re/docs/usage/introduction#how-to-run-a-pipeline).
+
+[Troubleshooting nf pipeline] (https://nf-co.re/docs/usage/troubleshooting).
+
+scp -r rs21h732@submit03.unibe.ch:/storage/workspaces/ips_reislab/reislab/reis/nf-rnaseq-ubelix/results ~/Dropbox/reislab/00-projects/reislab/github/nf-rnaseq-ubelix
