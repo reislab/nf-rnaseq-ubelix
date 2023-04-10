@@ -15,6 +15,6 @@ cd $WORKDIR
 $OUTDIR=/nf-rnaseq/results
 
 # Run pipeline
-module load Workspace
+HPC_WORKSPACE=ips_reislab module load Workspace
 module load Nextflow/22.10.1
 nextflow run nf-core/rnaseq -r 3.11.1 -profile test --outdir $OUTDIR
