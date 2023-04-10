@@ -16,7 +16,7 @@ cd $WORKDIR
 
 # Run pipeline
 nextflow run nf-core/rnaseq -r 3.11.1 \
-- resume \
+-resume \
 -profile test,singularity \
 --outdir $OUTDIR
 
