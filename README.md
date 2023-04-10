@@ -9,6 +9,8 @@ This repo and other nf-core pipeline implementations follow the name convention:
 
 > nf-"pipeline-name"-ubelix
 
+Make your repo public **before** cloning it.
+
 ## Set-up git for repo cloning in UBELIX
 ### Create a Personal Access Token (PAT) in GitHub
 In GitHub, go to:
