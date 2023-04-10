@@ -72,3 +72,5 @@ Repo directory creates write-protected files that will ask you for confirmation 
 
 
 scp -r rs21h732@submit03.unibe.ch:/storage/workspaces/ips_reislab/reislab/reis/nf-rnaseq-ubelix/results ~/Dropbox/reislab/00-projects/reislab/github/nf-rnaseq-ubelix
+
+scp -r rs21h732@submit03.unibe.ch:/storage/workspaces/ips_reislab/reislab/reis/nf-rnaseq-ubelix/.nextflow.log ~/Dropbox/reislab/00-projects/reislab/github/nf-rnaseq-ubelix
