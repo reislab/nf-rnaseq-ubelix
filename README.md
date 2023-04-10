@@ -47,3 +47,10 @@ Go to directory with script and run:
 ``
 sbatch your-script.sh
 ``
+
+## Copy results to local directory
+In the local terminal, run (replace "user" and "your-surname"):
+
+``
+scp -r "user"@submit03.unibe.ch:/storage/workspaces/ips_reislab/reislab/"your-surname"/nf-rnaseq-ubelix/results /path/to/target_dir/
+``

@@ -1,0 +1,3 @@
+task_id	hash	native_id	name	status	exit	submit	duration	realtime	%cpu	peak_rss	peak_vmem	rchar	wchar
+3	c1/ad47d6	85176	NFCORE_RNASEQ:RNASEQ:PREPARE_GENOME:UNTAR_SALMON_INDEX (salmon.tar.gz)	FAILED	2	2023-04-10 04:19:24.360	535ms	453ms	-	-	-	-	-
+1	bd/a44b7c	85237	NFCORE_RNASEQ:RNASEQ:PREPARE_GENOME:GUNZIP_GTF (genes.gtf.gz)	COMPLETED	0	2023-04-10 04:19:25.019	1.1s	288ms	10.4%	0	0	132.5 KB	200.4 KB
