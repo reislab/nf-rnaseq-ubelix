@@ -17,5 +17,4 @@ cd $WORKDIR
 nextflow run nf-core/rnaseq -r 3.11.1 \
 -resume \
 -profile test,singularity \
---outdir $OUTDIR \
--c '$WORKDIR/unibe_ibu.config'
+--outdir $OUTDIR
