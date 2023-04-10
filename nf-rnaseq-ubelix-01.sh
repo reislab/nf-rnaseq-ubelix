@@ -9,7 +9,6 @@ module load Nextflow/22.10.1
 # Setup directory structure
 mkdir -p $WORKSPACE/reis/nf-rnaseq-ubelix/results
 cd $WORKSPACE/reis/nf-rnaseq-ubelix
-$OUTDIR="/results"
 
 # Run pipeline
-nextflow run nf-core/rnaseq -r 3.11.1 -profile test --outdir $OUTDIR
+nextflow run nf-core/rnaseq -r 3.11.1 -profile test --outdir /results
